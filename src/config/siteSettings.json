@@ -1,0 +1,19 @@
+
+{
+  "businessName": "Urban Company",
+  "userTheme": "orange",
+  "adminTheme": "orange",
+  "userTheme": "orange",
+  "adminTheme": "orange",
+  "headerLogoPosition": "left",
+  "currency": "USD",
+  "serviceFee": 0,
+  "serviceTaxPercent": 0,
+  "commissionPercent": 10,
+  "bookingsEnabled": true,
+  "adminNavPlacement": "left",
+  "showHeaderLogin": true,
+  "mapProvider": "openstreetmap",
+  "mapApiKey": "",
+  "defaultWorkerRadiusKm": 15
+}

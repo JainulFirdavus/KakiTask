@@ -1,0 +1,40 @@
+export const THEME_PRESETS = {
+  orange: {
+    label: 'Urban Orange',
+    primary: '#fa681c',
+    primaryDark: '#e95710',
+    secondary: '#66cdb4',
+    background: '#f7f8fa',
+    paper: '#ffffff',
+    text: '#17191c',
+    muted: '#838792',
+    border: '#e7e8eb',
+    accent: '#ffad75',
+  },
+  ocean: {
+    label: 'Ocean',
+    primary: '#167c89',
+    primaryDark: '#105f69',
+    secondary: '#e5a84b',
+    background: '#f2f8f9',
+    paper: '#ffffff',
+    text: '#17272b',
+    muted: '#71858a',
+    border: '#d9e7e9',
+    accent: '#67bdc2',
+  },
+  forest: {
+    label: 'Forest',
+    primary: '#477a54',
+    primaryDark: '#345f3f',
+    secondary: '#d69a4d',
+    background: '#f4f8f4',
+    paper: '#ffffff',
+    text: '#1e2b21',
+    muted: '#78877a',
+    border: '#dfe8df',
+    accent: '#8db796',
+  },
+}
+
+export const getThemePreset = (name) => THEME_PRESETS[name] || THEME_PRESETS.orange
